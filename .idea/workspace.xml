@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a524285-451e-4f12-bd06-c691a281537a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CategoryCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
     </list>
@@ -39,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -84,7 +87,9 @@
       <workItem from="1659170222589" duration="2202000" />
       <workItem from="1659265588000" duration="2121000" />
       <workItem from="1659365050110" duration="2262000" />
-      <workItem from="1659458267458" duration="575000" />
+      <workItem from="1659458267458" duration="1130000" />
+      <workItem from="1659466662967" duration="209000" />
+      <workItem from="1659540819573" duration="1066000" />
     </task>
     <servers />
   </component>
