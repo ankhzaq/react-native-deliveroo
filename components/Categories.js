@@ -16,6 +16,9 @@ const Categories = ( props ) => {
       <CategoryCard imgUrl="https://links.papareact.com/wru" title="title 1" />
       <CategoryCard imgUrl="https://links.papareact.com/wru" title="title 2" />
       <CategoryCard imgUrl="https://links.papareact.com/wru" title="title 3" />
+      <CategoryCard imgUrl="https://links.papareact.com/wru" title="title 4" />
+      <CategoryCard imgUrl="https://links.papareact.com/wru" title="title 5" />
+      <CategoryCard imgUrl="https://links.papareact.com/wru" title="title 6" />
     </ScrollView> );
 };
 
