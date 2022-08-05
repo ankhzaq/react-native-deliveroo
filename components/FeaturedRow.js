@@ -1,5 +1,6 @@
 import { View, ScrollView, Text } from "react-native";
 import { ArrowRightIcon } from 'react-native-heroicons/outline';
+import RestaurantCard from './RestaurantCard';
 import React from 'react';
 
 const FeaturedRow = ({ title, description, featuredCategory }) => {
@@ -19,6 +20,17 @@ const FeaturedRow = ({ title, description, featuredCategory }) => {
         className="pt-4"
       >
         {/* RestaurantCards... */}
+        <RestaurantCard
+          id={123}
+          imgUrl="https://links.papareact.com/gn7"
+          title="Yo! Sushi"
+          rating={4.5}
+          genre="Japanese"
+          short_description="This is a Test description"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
       </ScrollView>
     </View>
   );
