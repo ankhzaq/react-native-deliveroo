@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a524285-451e-4f12-bd06-c691a281537a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/RestaurantCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FeaturedRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/FeaturedRow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/RestaurantCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/RestaurantCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,8 @@
       <workItem from="1659466662967" duration="209000" />
       <workItem from="1659540819573" duration="1559000" />
       <workItem from="1659637598459" duration="1138000" />
-      <workItem from="1659712200144" duration="1541000" />
+      <workItem from="1659712200144" duration="1999000" />
+      <workItem from="1659782816978" duration="1793000" />
     </task>
     <servers />
   </component>
