@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a524285-451e-4f12-bd06-c691a281537a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sanity/schemas/restaurant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanity/schemas/featured.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/schemas/author.js" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/dish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/schemas/blockContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/schemas/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/schemas/post.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sanity/schemas/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/schema.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +99,8 @@
       <workItem from="1659637598459" duration="1138000" />
       <workItem from="1659712200144" duration="1999000" />
       <workItem from="1659782816978" duration="1956000" />
-      <workItem from="1660241943360" duration="993000" />
+      <workItem from="1660241943360" duration="1044000" />
+      <workItem from="1660320185354" duration="1497000" />
     </task>
     <servers />
   </component>

@@ -5,19 +5,19 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // We import object and document schemas
-import blockContent from './blockContent'
 import category from './category'
-import post from './post'
-import author from './author'
+import dish from './dish'
+import featured from './featured'
+import restaurant from './restaurant';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
   name: 'default',
   types: schemaTypes.concat([
-    post,
-    author,
     category,
-    blockContent,
+    dish,
+    featured,
+    restaurant,
   ]),
 })
