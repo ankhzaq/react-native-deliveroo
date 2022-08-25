@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a524285-451e-4f12-bd06-c691a281537a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sanity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity/schemas/featured.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/schemas/author.js" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/dish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/schemas/blockContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity.js" beforeDir="false" afterPath="$PROJECT_DIR$/sanity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sanity/schemas/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/schemas/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/schemas/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/schema.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sanity/schemas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -100,7 +94,12 @@
       <workItem from="1659712200144" duration="1999000" />
       <workItem from="1659782816978" duration="1956000" />
       <workItem from="1660241943360" duration="1044000" />
-      <workItem from="1660320185354" duration="1497000" />
+      <workItem from="1660320185354" duration="1726000" />
+      <workItem from="1660395839798" duration="393000" />
+      <workItem from="1660566509278" duration="605000" />
+      <workItem from="1660832866428" duration="7000" />
+      <workItem from="1661265818967" duration="438000" />
+      <workItem from="1661352817111" duration="2502000" />
     </task>
     <servers />
   </component>

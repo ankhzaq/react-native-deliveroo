@@ -11,8 +11,8 @@ export default {
     },
     {
       name: 'image',
-      title: 'image',
-      type: 'Image of Category',
+      title: 'Image of Category',
+      type: 'image',
     },
   ],
 }
