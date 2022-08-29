@@ -1,9 +1,31 @@
 import { View, ScrollView, Text } from "react-native";
 import { ArrowRightIcon } from 'react-native-heroicons/outline';
 import RestaurantCard from './RestaurantCard';
-import React from 'react';
+import sanityClient from '../sanity';
+import React, { useEffect, useState } from 'react';
 
-const FeaturedRow = ({ title, description, featuredCategory }) => {
+const FeaturedRow = ({ description, id, featuredCategory, title }) => {
+
+  const [restaurants, setRestaurants] = useState([]);
+
+  useEffect(() => {
+    sanityClient.fetch(`
+     *[_type == "featured" && _id == $id] {
+        ...,
+        restaurants[]->{
+          ...,
+          dishes[]->,
+          type -> {
+            name
+          }
+        },
+      }[0]`, { id }).then((data) => {
+        setRestaurants(data?.restaurants);
+    });
+  }, []);
+
+  console.log("restaurants: ", restaurants);
+
   return (
     <View>
       <View className="mt-4 flex-row items-center justify-between px-4">
@@ -20,17 +42,13 @@ const FeaturedRow = ({ title, description, featuredCategory }) => {
         className="pt-4"
       >
         {/* RestaurantCards... */}
-        <RestaurantCard
-          id={123}
-          imgUrl="https://links.papareact.com/gn7"
-          title="Yo! Sushi"
-          rating={4.5}
-          genre="Japanese"
-          short_description="This is a Test description"
-          dishes={[]}
-          long={20}
-          lat={0}
-        />
+        {
+          restaurants.map((props) => (
+            <RestaurantCard
+              {...props}
+            />
+          ))
+        }
       </ScrollView>
     </View>
   );

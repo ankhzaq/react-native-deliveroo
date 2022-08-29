@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4a524285-451e-4f12-bd06-c691a281537a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity.js" beforeDir="false" afterPath="$PROJECT_DIR$/sanity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/schemas/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FeaturedRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/FeaturedRow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/RestaurantCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/RestaurantCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +101,10 @@
       <workItem from="1660832866428" duration="7000" />
       <workItem from="1661265818967" duration="438000" />
       <workItem from="1661352817111" duration="2502000" />
+      <workItem from="1661436806844" duration="671000" />
+      <workItem from="1661490672804" duration="328000" />
+      <workItem from="1661708771965" duration="169000" />
+      <workItem from="1661709669271" duration="1424000" />
     </task>
     <servers />
   </component>

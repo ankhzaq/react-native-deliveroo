@@ -20,7 +20,6 @@ const HomeScreen = () => {
           dishes[]->
         }
       }`).then((data) => {
-        debugger;
       setFeaturedCategories(data);
     });
   }, []);
