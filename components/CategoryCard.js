@@ -9,7 +9,7 @@ const CategoryCard = ({ image, title }) => {
       <Image
         className="h-20 w-20 rounded"
         source={{
-          uri: image && urlFor(image).url()
+          uri: image && urlFor(image).width(200).url()
         }}
       />
       <Text>{title}</Text>
