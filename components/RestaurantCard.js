@@ -4,18 +4,20 @@ import React from 'react';
 import { urlFor } from "../sanity";
 import { useNavigation } from "@react-navigation/native"
 
-const RestaurantCard = ({
-  id,
-  image,
-  title,
-  rating,
-  genre,
-  address,
-  short_description,
-  dishes,
-  long,
-  lat,
-}) => {
+const RestaurantCard = (props) => {
+
+  const {
+    id,
+    image,
+    title,
+    rating,
+    genre,
+    address,
+    short_description,
+    dishes,
+    long,
+    lat
+  } = props;
 
   const navigation = useNavigation('Restaurant');
 
@@ -23,7 +25,9 @@ const RestaurantCard = ({
     <TouchableOpacity
       className="bg-white mr-3 shadow"
       onPress={() => {
-        navigation.navigate('Restaurant')
+        navigation.navigate('Restaurant', {
+          ...props
+        })
       }}
     >
       <Image
