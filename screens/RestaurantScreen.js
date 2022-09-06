@@ -10,6 +10,7 @@ import {
   QuestionMarkCircleIcon,
   StarIcon
 } from 'react-native-heroicons/solid';
+import DishRow from '../components/DishRow';
 
 
 const RestaurantScreen = () => {
@@ -88,7 +89,10 @@ const RestaurantScreen = () => {
 
         {
           dishes.map((dish) => (
-            <Text>dish</Text>
+            <DishRow
+              key={dish._id}
+              { ...dish }
+            />
           ))
         }
       </View>
