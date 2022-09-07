@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d40c0f99-eaf9-432d-a2bc-0a8a71430e6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/DishRow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/RestaurantScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/RestaurantScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DishRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DishRow.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,8 @@
       <updated>1662197504515</updated>
       <workItem from="1662197505263" duration="3941000" />
       <workItem from="1662315264133" duration="118000" />
-      <workItem from="1662442793345" duration="797000" />
+      <workItem from="1662442793345" duration="834000" />
+      <workItem from="1662570670179" duration="639000" />
     </task>
     <servers />
   </component>
