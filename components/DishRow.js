@@ -10,7 +10,7 @@ const DishRow = (props) => {
   const { name, short_description, price, image } = props;
   return (
     <>
-      <TouchableOpacity className="bg-white border p-4 border-gray-200" onPress={() => setIsPressed(!isPressed)}>
+      <TouchableOpacity className={`bg-white border p-4 border-gray-200 ${ isPressed && "border-b-0"}`} onPress={() => setIsPressed(!isPressed)}>
         <View className="flex-row">
           <View className="flex-1 pr-2">
             <Text className="text-lg mb-1">{name}</Text>
