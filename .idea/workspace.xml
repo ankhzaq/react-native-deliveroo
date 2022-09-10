@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d40c0f99-eaf9-432d-a2bc-0a8a71430e6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/features/basketSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DishRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DishRow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/basketSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/basketSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
       <workItem from="1662570670179" duration="729000" />
       <workItem from="1662660942964" duration="490000" />
       <workItem from="1662750797567" duration="311000" />
+      <workItem from="1662805665918" duration="1625000" />
     </task>
     <servers />
   </component>
